@@ -3,6 +3,15 @@
 #include "polynomial_tamplate.hpp"
 #include <conio.h>
 using namespace std;
+
+int menu0() {
+	cout << "\n\t[1] - Работа с int ";
+	cout << "\n\t[2] - Работа с float";
+	cout << "\n\t[3] - Работа с double;";
+	cout << "\n\t[4] - Работа с complex<float>;";
+	cout << "\n\t[5] - Работа с complex<double>;";
+	cout << "\n\n\tesc - Выход";
+}
 int menu1() {
 	cout << "\n\t'->' - Cледуюий элемент\n\t'<-' - предыдуший элемент";//77 75 ok===============
 	cout << "\n\t[1] - добавить многочлен";// 49 ok=============================================
